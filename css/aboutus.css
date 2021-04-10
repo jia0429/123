@@ -1,0 +1,25 @@
+@import url(index.css);
+/*從這之後開始 前面不要動到！*/
+
+.container{
+    columns: 4;
+    column-rule: gray solid 1px;
+}
+.subsection {
+    padding: 30px;
+}
+
+img{
+    height: 250px;
+    width: 250px;
+}
+#header{
+    text-align: center;
+    column-span: all;
+}
+
+.position{
+    position: relative;
+    top: 50px;
+    left: 75px;
+}

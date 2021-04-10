@@ -1,0 +1,104 @@
+@import url(index.css);
+
+/*從這之後開始 前面不要動到！*/
+.cubea {
+  /*這是設備方塊*/
+  background-color: #84C1FF;
+  color: white;
+  padding: 10px 20px 10px 20px;
+  font-weight: bolder;
+  border-radius: 12px;
+  font-size: 25px;
+  position: relative;
+  left: 100px;
+  top: 40px;
+  width: 80px;
+}
+
+/*以下為照片設定*/
+.da {
+  width: 400px;
+  height: 280px;
+  position: relative;
+  left: 60px;
+  top: 50px;
+}
+
+.db {
+  width: 400px;
+  height: 280px;
+  position: relative;
+  left: 130px;
+  top: 50px;
+}
+
+.dc {
+  width: 400px;
+  height: 280px;
+  position: relative;
+  left: 200px;
+  top: 50px;
+}
+
+.dd {
+  width: 400px;
+  height: 280px;
+  position: relative;
+  left: 60px;
+  top: 80px;
+}
+
+.de {
+  width: 400px;
+  height: 280px;
+  position: relative;
+  left: 130px;
+  top: 80px;
+}
+
+.df {
+  width: 400px;
+  height: 280px;
+  position: relative;
+  left: 200px;
+  top: 80px;
+}
+
+.cubeb {
+  /*這是活動方塊*/
+  background-color: #84C1FF;
+  color: white;
+  padding: 10px 20px 10px 20px;
+  font-weight: bolder;
+  border-radius: 12px;
+  font-size: 25px;
+  position: relative;
+  left: 100px;
+  top: 80px;
+  width: 80px;
+}
+
+/*以下為照片設定*/
+.dg {
+  width: 400px;
+  height: 280px;
+  position: relative;
+  left: 60px;
+  top: 90px;
+}
+
+.dh {
+  width: 400px;
+  height: 280px;
+  position: relative;
+  left: 130px;
+  top: 90px;
+}
+
+.di {
+  width: 400px;
+  height: 280px;
+  position: relative;
+  left: 200px;
+  top: 90px;
+}

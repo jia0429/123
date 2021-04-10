@@ -1,0 +1,20 @@
+@import url(index.css);
+/*從這之後開始 前面不要動到！*/
+.form{
+     width: 600px;
+     height: 300px;
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     margin: -150px 0 0 -300px;
+}
+.t{
+    padding: 10px;
+}
+.button{
+    padding: 5px;
+    border-radius: 7px;
+    background-color: 	#FFBC8C;
+    font-weight: bold;
+}
+
