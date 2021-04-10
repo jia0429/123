@@ -1,7 +1,11 @@
 body {
-  background-color: #f2cc8f;
+  background-color:#edf6f9;
   font-family: 'Noto Serif TC',
     serif;
+  min-height: calc(100%-100px);
+  width: 100%;
+  height: 100%;
+
 }
 
 .title {
@@ -130,79 +134,18 @@ ul.list li:hover>ul {
   display: block;
 }
 
-/*這裡*/
-.dorm4a {
-  position: relative;
-  width: 230px;
-  height: 370px;
-  left: 20px;
-  top: 150px;
-}
-
-.dorm4b {
-  position: relative;
-  width: 400px;
-  height: 250px;
-  left: 20px;
-  top: 28px;
-
-}
-
-.dorm4 img {
+.footer{
+  margin-top: 280px;
+  height: 100px;
+  background-color: #89c2d9;
+  width:2000px;
   position: absolute;
-  -webkit-transition: opacity 1s ease-in-out;
-  -moz-transition: opacity 1s ease-in-out;
-  -o-transition: opacity 1s ease-in-out;
-  transition: opacity 1s ease-in-out;
 }
 
-.dorm4b {
-  opacity: 0;
-}
-
-.dorm4:hover .dorm4a {
-  opacity: 1;
-}
-
-.dorm4:hover .dorm4b {
-  opacity: 1;
-}
-
-/*到這裡*/
-
-.dorm5a {
+.icon1{
+  width: 80px;
+  height: 80px;
+  top: 5px;
+  left:-10px;
   position: relative;
-  width: 400px;
-  height: 380px;
-  left: 70%;
-  top: 50%;
-}
-
-.dorm5b {
-  position: relative;
-  width: 350px;
-  height: 200px;
-  left: 20px;
-  top: 28px;
-
-}
-
-.dorm5 img {
-  position: absolute;
-  -webkit-transition: opacity 1s ease-in-out;
-  -moz-transition: opacity 1s ease-in-out;
-  -o-transition: opacity 1s ease-in-out;
-  transition: opacity 1s ease-in-out;
-}
-
-.dorm5b {
-  opacity: 0;
-}
-
-.dorm5:hover .dorm5a {
-  opacity: 1;
-}
-
-.dorm5:hover .dorm5b {
-  opacity: 1;
 }

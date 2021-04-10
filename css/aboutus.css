@@ -4,14 +4,17 @@
 .container{
     columns: 4;
     column-rule: gray solid 1px;
+    text-align: center;
+    column-fill: balance;
 }
 .subsection {
     padding: 30px;
+    -webkit-column-break-before: always;
 }
 
 img{
-    height: 250px;
-    width: 250px;
+    height: 75%;
+    width: 75%;
 }
 #header{
     text-align: center;
@@ -20,6 +23,6 @@ img{
 
 .position{
     position: relative;
-    top: 50px;
-    left: 75px;
+    text-align: center;
+    word-break: break-all;
 }
