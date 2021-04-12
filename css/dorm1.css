@@ -1,6 +1,13 @@
 @import url(index.css);
 
 /*從這之後開始 前面不要動到！*/
+.d-background{
+  background-image: url('../image/d-background.png');
+  background-attachment: local;
+  width:1899px;
+  height: 1715px;
+
+}
 .cubea {
   /*這是設備方塊*/
   background-color: #84C1FF;
@@ -314,3 +321,6 @@ p {
   display: block;
   object-fit: cover;
 }
+.d-all{
+margin-left: 190px;
+   }

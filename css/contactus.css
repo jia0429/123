@@ -1,20 +1,28 @@
 @import url(index.css);
 /*從這之後開始 前面不要動到！*/
+.us-background {
+      background-image: url('../image/us-background.png');
+      background-attachment: scroll;
+      width: 1899px;
+      height: 777px;
+}
 .form{
-     width: 600px;
-     height: 300px;
-     position: absolute;
-     top: 50%;
-     left: 50%;
-     margin: -150px 0 0 -300px;
+    width: 600px;
+    height: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -100px 0 0 -300px;
 }
 .t{
-    padding: 10px;
+   padding: 10px;
+   color: #0f4c5c;
+   font-weight: bold;
+   text-align: center;
 }
 .button{
-    padding: 5px;
-    border-radius: 7px;
-    background-color: 	#FFBC8C;
-    font-weight: bold;
+   padding: 5px;
+   border-radius: 7px;
+   background-color: 	#C4E1FF;
+   font-weight: bold;
 }
-

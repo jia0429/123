@@ -1,10 +1,17 @@
-body {
+html,body {
   background-color:#edf6f9;
   font-family: 'Noto Serif TC',
     serif;
-  min-height: calc(100%-100px);
-  width: 100%;
-  height: 100%;
+}
+
+.i-background{
+    background-image: url('../image/d-background.png');
+    background-attachment: fixed;
+}
+
+.wrapper{
+  min-height:100%;
+  position: relative;
 
 }
 
@@ -13,6 +20,15 @@ body {
   font-size: 50px;
   color: #0f4c5c;
   padding-top: 20px;
+}
+
+.title img {
+  max-width: 550px;
+  max-height: 550px;
+  overflow: visible;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 *,
@@ -134,18 +150,37 @@ ul.list li:hover>ul {
   display: block;
 }
 
-.footer{
-  margin-top: 280px;
-  height: 100px;
-  background-color: #89c2d9;
-  width:2000px;
+
+
+.jia {
   position: absolute;
+  top:-30px;
+  left: 20px;
+  width: 150px;
 }
 
-.icon1{
-  width: 80px;
-  height: 80px;
-  top: 5px;
-  left:-10px;
-  position: relative;
+.ziyi{
+  position: absolute;
+  top:10px;
+  left: 200px;
+  width: 150px;
 }
+
+.yu{
+  position: absolute;
+  top:0px;
+  right: 400px;
+  width: 150px;
+}
+
+.ruling{
+  position: absolute;
+  top:3px;
+  left: 1200px;;
+  width: 175px;
+}
+
+/*
+.jia,.ziyi,.yu,.ruling:hover{
+  animation: swing 1s 1;
+} */

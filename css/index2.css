@@ -1,186 +1,150 @@
-.video{
+*{
+  margin: 0;
+  padding: 0;
+
+}
+
+.dormall{
+  margin: 100px 0;
   position: relative;
-  left:455px;
-  top:50px;
 }
-/*1*/
-.dorm1a {
+
+.d-video{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.dorm4-b{
+  max-width: 350px;
+  max-height:180px;
+  overflow: visible;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dorm4-a{
+  max-width:100%;
+  max-height:100%; 
+  overflow: visible;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.dorm1{
   position: absolute;
-  width: 390px;
-  height: 300px;
-  left: 4%;
-  top: 430px;
+  left: 180px;
+  top: 280px;
 }
 
-.dorm1b {
-  position: absolute;
-  width: 300px;
-  height:150px;
-  left: 14%;
-  top: 430px;
-
-}
-
-.dorm1 img {
-  position: absolute;
-  
-}
-
-.dorm1b {
+.d-mark1{
   opacity: 0;
+  position: absolute;
+  left:150px;
+  top: -8px;
 }
 
-.dorm1:hover .dorm1a {
+.dorm1:hover .d1-a-img {
   opacity: 1;
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
 
-.dorm1:hover .dorm1b {
+.dorm1:hover .d-mark1 {
   opacity: 1;
 }
 /*1*/
 /*2*/
-.dorm2a {
+.dorm2 {
   position: absolute;
-  width: 250px;
-  height: 175px;
-  left: 77%;
-  top: 230px;
+  right:200px;
+  top: 9px;
+  
 }
 
-.dorm2b {
-  position: absolute;
-  width: 300px;
-  height: 150px;
-  left: 80%;
-  top: 90px;
-
-}
-
-.dorm2 img {
-  position: absolute;
-
-}
-
-.dorm2b {
+.d-mark2 {
   opacity: 0;
+  position: absolute;
+  left: 100px;
+  top: -250px;
 }
 
-.dorm2:hover .dorm2a {
+.dorm2:hover .d2-a-img {
   opacity: 1;
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
 
-.dorm2:hover .dorm2b {
+.dorm2:hover .d-mark2 {
   opacity: 1;
 }
 /*2*/
 /*3*/
-.dorm3a {
+.dorm3 {
   position: absolute;
-  width: 250px;
-  height: 150px;
-  left: 40%;
-  top: 590px;
+  left: -600px;
+  top: 340px; 
 }
 
-.dorm3b {
-  position: absolute;
-  width: 300px;
-  height: 150px;
-  left: 52%;
-  top: 520px;
-
-}
-
-.dorm3 img {
-  position: absolute;
-
-}
-
-.dorm3b {
+.d-mark3 {
   opacity: 0;
+  position: absolute;
+  left: 250px;
+  top: -60px;
 }
 
-.dorm3:hover .dorm3a {
+.dorm3:hover .d3-a-img {
   opacity: 1;
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
 
-.dorm3:hover .dorm3b {
+.dorm3:hover .d-mark3 {
   opacity: 1;
 }
-
 /*3*/
 /*4*/
-.dorm4a {
+.dorm4 {
   position: absolute;
-  width: 250px;
-  height: 340px;
-  left: 2%;
-  top: 125px;
+  left:-1255px;
+  top: -50px;
 }
 
-.dorm4b {
-  position: absolute;
-  width: 300px;
-  height: 150px;
-  left: 5.7%;
-  top: 52px;
-
-}
-
-.dorm4 img {
-  position: absolute;
-  
-}
-
-.dorm4b {
+.d-mark4 {
   opacity: 0;
+  position: absolute;
+  left: 150px;
+  top: -58px;
 }
 
-.dorm4:hover .dorm4a {
+.dorm4:hover .d4-a-img {
   opacity: 1;
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
 
-.dorm4:hover .dorm4b {
+.dorm4:hover .d-mark4 {
   opacity: 1;
 }
 /*4*/
 /*5*/
-.dorm5a {
+.dorm5 {
   position: absolute;
-  width: 300px;
-  height: 280px;
-  left: 75%;
-  top: 455px;
+  left:-50px;
+  top: 280px;
 }
 
-.dorm5b {
-  position: absolute;
-  width: 300px;
-  height: 150px;
-  left:65%;
-  top: 430px;
-
-}
-
-.dorm5 img {
-  position: absolute;
-
-}
-
-.dorm5b {
+.d-mark5 {
   opacity: 0;
+  position: absolute;
+  left: 190px;
+  top: -60px;
 }
 
-.dorm5:hover .dorm5a {
+.dorm5:hover .d5-a-img {
   opacity: 1;
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
 
-.dorm5:hover .dorm5b {
+.dorm5:hover .d-mark5{
   opacity: 1;
 }
 /*5*/
