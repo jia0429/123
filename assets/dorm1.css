@@ -394,3 +394,8 @@ margin-left: 210px;
   animation: swing 6s linear infinite;
   -webkit-animation: swing 6s linear infinite;
 }
+
+.fb {
+  color: #0f4c5c;
+  text-decoration:none;
+}
