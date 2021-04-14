@@ -35,8 +35,8 @@
 
 .dorm1{
   position: absolute;
-  left: 180px;
-  top: 280px;
+  left: 290px;
+  top: 300px;
 }
 
 .d-mark1{
@@ -57,17 +57,19 @@
 /*1*/
 /*2*/
 .dorm2 {
-  position: absolute;
-  right:200px;
-  top: 9px;
+  
+    position: absolute;
+    right: 280px;
+    top: 435px;
   
 }
 
 .d-mark2 {
-  opacity: 0;
-  position: absolute;
-  left: 100px;
-  top: -250px;
+
+    opacity: 0;
+    position: absolute;
+    left: 240px;
+    top: -150px;
 }
 
 .dorm2:hover .d2-a-img {
@@ -82,8 +84,8 @@
 /*3*/
 .dorm3 {
   position: absolute;
-  left: -600px;
-  top: 340px; 
+  left: 780px;
+  top: 420px; 
 }
 
 .d-mark3 {
@@ -105,8 +107,8 @@
 /*4*/
 .dorm4 {
   position: absolute;
-  left:-1255px;
-  top: -50px;
+  left:190px;
+  top: -20px;
 }
 
 .d-mark4 {
@@ -127,16 +129,16 @@
 /*4*/
 /*5*/
 .dorm5 {
-  position: absolute;
-  left:-50px;
-  top: 280px;
+position: absolute;
+right:180px;
+top: -10px;
 }
 
 .d-mark5 {
   opacity: 0;
   position: absolute;
-  left: 190px;
-  top: -60px;
+  left: 150px;
+  top: -100px;
 }
 
 .dorm5:hover .d5-a-img {

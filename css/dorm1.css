@@ -1,13 +1,11 @@
 @import url(index.css);
-
 /*從這之後開始 前面不要動到！*/
 .d-background{
-  background-image: url('../image/d-background.png');
-  background-attachment: local;
-  width:1899px;
-  height: 1715px;
-
+  background-image: url('../image/background.png');
+  background-attachment:fixed;
+  height: 1800px;
 }
+
 .cubea {
   /*這是設備方塊*/
   background-color: #84C1FF;
@@ -221,6 +219,9 @@ p {
   transition: opacity 0.8s;
 }
 
+.d-b{
+  height: 0px;
+}
 
 
 /*以下為照片設定*/
@@ -322,5 +323,74 @@ p {
   object-fit: cover;
 }
 .d-all{
-margin-left: 190px;
+margin-left: 210px;
    }
+   /*footer*/
+   .d-footer {
+     height: 200px;
+     /*設定footer本身高度*/
+     background-color: #a2d2ff;
+     bottom: 0;
+     width: 100%;
+     margin-top: 70px;
+
+
+   }
+.d-jia {
+  position: absolute;
+  top: 1805px;
+  left: 200px;
+  width: 170px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.d-ziyi {
+  position: absolute;
+  top: 1805px;
+  left: 470px;
+  width: 140px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.d-yu {
+  position: absolute;
+  top: 1805px;
+  right: 470px;
+  width: 130px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.d-ruling {
+  position: absolute;
+  top: 1800px;
+  right: 210px;
+  width: 100px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.d-team10 {
+  position: absolute;
+  top: 1855px;
+  left: 770px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.d-jia,
+.d-ziyi,
+.d-yu,
+.d-ruling {
+  -webkit-transform-origin: bottom center;
+  transform-origin: bottom center;
+  animation: swing 6s linear infinite;
+  -webkit-animation: swing 6s linear infinite;
+}
