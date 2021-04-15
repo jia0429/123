@@ -1,8 +1,9 @@
 @import url(index.css);
+
 /*從這之後開始 前面不要動到！*/
-.d-background{
+.d-background {
   background-image: url('../image/background.png');
-  background-attachment:fixed;
+  background-attachment: fixed;
   height: 1800px;
 }
 
@@ -219,7 +220,7 @@ p {
   transition: opacity 0.8s;
 }
 
-.d-b{
+.d-b {
   height: 0px;
 }
 
@@ -322,20 +323,23 @@ p {
   display: block;
   object-fit: cover;
 }
-.d-all{
-margin-left: 210px;
-   }
-   /*footer*/
-   .d-footer {
-     height: 200px;
-     /*設定footer本身高度*/
-     background-color: #a2d2ff;
-     bottom: 0;
-     width: 100%;
-     margin-top: 70px;
+
+.d-all {
+  margin-left: 210px;
+}
+
+/*footer*/
+.d-footer {
+  height: 200px;
+  /*設定footer本身高度*/
+  background-color: #a2d2ff;
+  bottom: 0;
+  width: 100%;
+  margin-top: 70px;
 
 
-   }
+}
+
 .d-jia {
   position: absolute;
   top: 1805px;
@@ -397,5 +401,9 @@ margin-left: 210px;
 
 .fb {
   color: #0f4c5c;
-  text-decoration:none;
+  text-decoration: none;
+}
+
+.d-t {
+  font-size: 28px;
 }
