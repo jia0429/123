@@ -17,7 +17,7 @@
   font-size: 25px;
   position: relative;
   left: 100px;
-  top: 40px;
+  top: 90px;
   width: 80px;
 }
 
@@ -292,7 +292,7 @@ p {
   font-size: 25px;
   position: relative;
   left: 100px;
-  top: -380px;
+  top: -330px;
   width: 80px;
 }
 
@@ -406,4 +406,34 @@ p {
 
 .d-t {
   font-size: 28px;
+}
+
+.content-d{
+  padding-bottom: 380px;
+}
+
+.c-t{
+  margin: 0;
+  padding: 0;
+  width: 750px;
+  text-align: left;
+  position: relative;
+  left: 250px;
+  top:30px;
+  font-size: 20px;
+  color:#457b9d;
+  font-weight: bold;
+}
+
+.c-t2{
+  margin: 0;
+  padding: 0;
+  width: 750px;
+  text-align: left;
+  position: relative;
+  left: 250px;
+  top:-390px;
+  font-size: 20px;
+  color:#457b9d;
+  font-weight: bold;
 }
